@@ -87,7 +87,7 @@ const App = () => {
     >
       <View style={styles.container}>
         <Text style={styles.headingText}>
-          Whatever happens, today is the Great Day ... !!!
+          Whatever happens... Today is the Great Day
         </Text>
         <Animated.View
           style={[
@@ -150,6 +150,8 @@ const styles = {
     fontWeight: "bold",
     color: "#fff",
     marginTop: -250,
+    marginLeft: 20,
+    marginRight: 20,
     marginBottom: 200, // Space below the heading
     textAlign: "center",
     alignSelf: "center",
