@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MediApp",
-    "slug": "MediApp",
+    "name": "CalmUp",
+    "slug": "calmup",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fahadayyaz.calmup"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6a9b65b0-d989-4fd0-bb00-1cb1c84c40b3"
+      }
     }
   }
 }
